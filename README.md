@@ -31,6 +31,6 @@
 
 
 ##资料贡献者：
-23 BSC rehab TOM WU（WYX）
-23 BSC medical imaging CANDY XU（XHQ）
-24 BSC rehab EASON WANG（WZY）
+* **23 BSC rehab TOM WU（WYX）**
+* **23 BSC medical imaging CANDY XU（XHQ）**
+* **24 BSC rehab EASON WANG（WZY）**
