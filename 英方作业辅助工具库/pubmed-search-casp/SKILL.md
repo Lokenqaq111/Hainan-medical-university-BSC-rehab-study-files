@@ -1,5 +1,5 @@
 ---
-name: Pubmed_search_casp-skill
+name: pubmed-search-casp
 description: Use when the user provides an Exercise Prescription for Special Populations assessment brief, course slides or highlighted teaching materials, and a topic/population, and wants a complete PubMed search strategy, PubMed saved results, PRISMA-style screening, CASP quality appraisal, and final medium/high-quality included article files.
 metadata:
   short-description: EPSP PubMed search, PRISMA screening, and CASP appraisal
@@ -131,7 +131,7 @@ Also include a concise note stating:
 When the user wants to trigger this workflow, they can say:
 
 ```text
-请使用 Pubmed_search_casp-skill 工作流。我的 assessment brief 是 [文件]，我想重点参考的课件是 [文件1、文件2、文件3]，主题/人群是 [主题]。请完成：
+请使用 pubmed-search-casp 工作流。我的 assessment brief 是 [文件]，我想重点参考的课件是 [文件1、文件2、文件3]，主题/人群是 [主题]。请完成：
 1. 确定最终 PubMed 检索策略并保存为 Markdown；
 2. 用该策略在 PubMed 检索，并用 PubMed Save 保存 all results + Summary 格式 TXT；
 3. 根据 brief 和课件写纳排标准；

@@ -9,7 +9,7 @@
 | 工具 | 用途 | 适用场景 |
 | --- | --- | --- |
 | [`uwe-bristol-harvard-reference-generator`](./uwe-bristol-harvard-reference-generator) | 按 UWE Bristol Harvard 规范生成参考文献条目与正文引用，支持期刊文章、article-number 期刊、网页/机构报告，以及对 DOCX 参考文献清单的批量修订 | 写 UWE 英方课程论文、references 整理与校对 |
-| [`Pubmed_search_casp-skill`](./Pubmed_search_casp-skill) | 跑完整的循证文献检索流程：从作业 brief 与课件出发构建 PubMed 检索式、保存检索结果、做 PRISMA 筛选、用 CASP 做质量评价，最后产出可纳入的中/高质量文献清单 | 英方 EPSP(Exercise Prescription for Special Populations)等需要 PubMed 检索 + PRISMA + CASP 的循证作业 |
+| [`pubmed-search-casp`](./pubmed-search-casp) | 跑完整的循证文献检索流程：从作业 brief 与课件出发构建 PubMed 检索式、保存检索结果、做 PRISMA 筛选、用 CASP 做质量评价，最后产出可纳入的中/高质量文献清单 | 英方 EPSP(Exercise Prescription for Special Populations)等需要 PubMed 检索 + PRISMA + CASP 的循证作业 |
 
 后续如有新增工具，请保持"一个工具一个子目录 + 一个 `SKILL.md`"的结构。
 
@@ -33,7 +33,7 @@ Claude Code 原生支持 skill 协议，把工具目录放到 `~/.claude/skills/
 # 克隆/更新本仓库到本地任意位置后:
 mkdir -p ~/.claude/skills
 cp -r 英方作业辅助工具库/uwe-bristol-harvard-reference-generator ~/.claude/skills/
-cp -r 英方作业辅助工具库/Pubmed_search_casp-skill ~/.claude/skills/
+cp -r 英方作业辅助工具库/pubmed-search-casp ~/.claude/skills/
 ```
 
 之后在 Claude Code 会话里直接输入:
@@ -51,7 +51,7 @@ Hermes 的技能目录在 `~/.hermes/skills/`，按类别组织。建议放到 `
 ```bash
 mkdir -p ~/.hermes/skills/research
 cp -r 英方作业辅助工具库/uwe-bristol-harvard-reference-generator ~/.hermes/skills/research/
-cp -r 英方作业辅助工具库/Pubmed_search_casp-skill ~/.hermes/skills/research/
+cp -r 英方作业辅助工具库/pubmed-search-casp ~/.hermes/skills/research/
 ```
 
 Hermes 启动后会自动加载技能库，使用方式与 Claude Code 类似。
@@ -74,7 +74,7 @@ cat 英方作业辅助工具库/uwe-bristol-harvard-reference-generator/SKILL.md
 
 1. 打开对应工具的 `SKILL.md`(例如
    [`uwe-bristol-harvard-reference-generator/SKILL.md`](./uwe-bristol-harvard-reference-generator/SKILL.md) 或
-   [`Pubmed_search_casp-skill/SKILL.md`](./Pubmed_search_casp-skill/SKILL.md))复制全文
+   [`pubmed-search-casp/SKILL.md`](./pubmed-search-casp/SKILL.md))复制全文
 2. 新建一个会话，把全文作为第一条消息发送，并在末尾追加你的具体需求
    (例如"现在帮我生成下面这条 DOI 的 UWE Harvard 引用: 10.1136/bmj-2023-077934")
 
