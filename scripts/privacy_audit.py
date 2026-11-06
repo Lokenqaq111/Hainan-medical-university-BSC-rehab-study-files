@@ -19,7 +19,7 @@ FILENAME_PATTERNS = [
     re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}"),
     re.compile(r"1[3-9]\d{9}"),
     re.compile(r"\b\d{9,12}\b"),
-    re.compile(r"Tom Wu|Candy|Eason|武宇翔|WYX|XHQ|WZY", re.IGNORECASE),
+    re.compile(r"Tom Wu|Candy|Eason|武宇翔|WYX|XHQ|WZY|Lucas Chi|CYH", re.IGNORECASE),
 ]
 
 TEXT_PATTERNS = FILENAME_PATTERNS

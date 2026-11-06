@@ -33,7 +33,9 @@
 ```text
 大一/
   大一上/
+    公共英语
   大一下/
+    康复专业英语
 大二/
   大二上/
     生理 / 生物力学 / 系统性解剖 / 组织与胚胎学 / 运动处方课论文作业范例
@@ -55,6 +57,7 @@
 - `pdf`：复习资料、课堂讲义、论文、实验报告
 - `doc` / `docx` / `rtf`：作业草稿、整理笔记、单词解释、文档型资料
 - `pptx`：课程课件、展示文稿
+- `xls`：单词表等表格型资料
 - `jpg` / `png`：题库截图、手写笔记、资料拍照件
 - `xmind`：少量思维导图类资料
 
@@ -93,6 +96,7 @@
 - 23 BSC Rehab: TOM WU（WYX）
 - 23 BSC Medical Imaging: CANDY XU（XHQ）
 - 24 BSC Rehab: EASON WANG（WZY）
+- 25 BSC Rehab: LUCAS CHI（CYH）
 
 ---
 
